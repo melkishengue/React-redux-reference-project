@@ -13,7 +13,6 @@ export function initStore() {
 }
 
 let initialState = initStore();
-console.log("the initial state", initialState);
 
 export default (state = initialState, action) => {
   let newState;

@@ -3,8 +3,9 @@ import axios from "axios";
 export default {
   fetchTodos() {
     return new Promise((resolve, reject) => {
+      // simulated network latency
       let timeout = Math.round(Math.random() * 2 + 1);
-      console.log(timeout);
+
       axios
         .get("https://jsonplaceholder.typicode.com/todos/")
         .then(response => {

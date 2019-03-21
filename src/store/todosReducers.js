@@ -7,8 +7,6 @@ let initialState = {
   loadingTodos: false
 };
 
-console.log(initialState);
-
 export default (state = initialState, action) => {
   let newState;
 
