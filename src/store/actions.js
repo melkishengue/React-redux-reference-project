@@ -47,6 +47,7 @@ export function loadingTodosAction(loading) {
   };
 }
 
+// redux-thunk in action
 export function loadTodosAction() {
   return async function(dispatch) {
     try {
